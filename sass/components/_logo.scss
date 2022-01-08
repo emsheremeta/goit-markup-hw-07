@@ -9,12 +9,12 @@
     display: flex;
     justify-content: center;
     
-    &__logo--accent {
+    &--accent {
         color:var(--accent-color);
     }
-    &__title {
+}
+    .navigation__title {
         color: var(--title-color);
     }
     
    
-}

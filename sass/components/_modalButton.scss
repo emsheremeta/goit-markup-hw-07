@@ -4,7 +4,8 @@
     justify-content: center;
 
     margin-top: 30px;
-    &_send{
+    
+    &__send {
         font-family: Roboto;
         font-weight: bold;
         font-size: 16px;
@@ -12,6 +13,7 @@
         letter-spacing: 0.06em;
         color: var(--white-color);
     }
+
 }
 .button__submit{
     width: 200px;
