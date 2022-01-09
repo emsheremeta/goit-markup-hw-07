@@ -625,6 +625,7 @@ ul {
   display: flex;
   align-items: center;
   padding-bottom: 30px;
+  padding-left: 32px;
 }
 
 .social__links {
@@ -650,7 +651,9 @@ ul {
 .social__list:nth-child(-n+4):last-child {
   margin-right: 0;
 }
-.social__list:nth-child(-n+4):hover .social__icon, .social__list:nth-child(-n+4):focus .social__icon {
+
+.social__links:hover .social__icon,
+.social__links:focus .social__icon {
   fill: var(--white-color);
 }
 
@@ -984,18 +987,16 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  /* opacity: 0; */
-  width: 100%;
   height: 100%;
   display: inline-block;
+  margin: 0;
+  padding: 63px 24px;
   font-family: Roboto;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--white-color);
   background-color: rgba(33, 150, 243, 0.9);
-  margin: 0;
-  padding: 63px 24px;
   transform: translateY(100%);
   transition: transform 250ms var(--timefunction);
 }

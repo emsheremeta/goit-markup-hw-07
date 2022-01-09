@@ -67,13 +67,11 @@
     position: absolute;
     top: 0;
     left: 0;
-
-    /* opacity: 0; */
-
-    width: 100%;
     height: 100%;
 
     display: inline-block;
+    margin: 0;
+    padding: 63px 24px;
 
     font-family: Roboto;
     font-size: 18px;
@@ -83,8 +81,7 @@
     color: var(--white-color);
     background-color: rgba(33, 150, 243, 0.9);
     
-    margin: 0;
-    padding: 63px 24px;
+    
 
     transform: translateY(100%);
     transition: transform 250ms var(--timefunction);
